@@ -21,3 +21,11 @@
   border: 1px solid #d5d5d5;
   background-color: white;
 }
+
+.blue-text {
+  color: rgba(var(--d69, 0, 149, 246), 1);
+}
+
+.gray-text {
+  color: rgba(var(--f52, 142, 142, 142), 1);
+}
