@@ -8,16 +8,21 @@
     max-width: 1024px;
   }
 
+  #storys-wrapper {
+    margin: 3% 0;
+    border: 1px solid #d5d5d5;
+  }
+
   #feed-container {
     margin: 0 0 3% 0;
   }
 
-  #menu-icons {
-    display: none;
-  }
-
   #main-page {
     margin-top: 60px;
+  }
+
+  #menu-icons {
+    display: none;
   }
 }
 
@@ -29,8 +34,9 @@
   .search-header {
     display: none;
   }
-  #menu-icons {
-    display: flex;
+
+  #storys-wrapper {
+    margin: 0;
   }
 
   #feed-container {
@@ -43,5 +49,9 @@
 
   #sub-page {
     display: none;
+  }
+
+  #menu-icons {
+    display: flex;
   }
 }

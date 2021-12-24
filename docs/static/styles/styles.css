@@ -21,7 +21,6 @@
   min-width: 500px;
   width: 100%;
   background-color: #f6f6f6;
-  border-top: 1px solid #d5d5d5;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -35,8 +34,7 @@
 #storys-wrapper .story {
   width: 4.2em;
   height: 4.2em;
-  border: 10px solid transparent; /*2*/
-  background: linear-gradient(45deg, red, blue) border-box;
+  border: 2px solid #d5d5d5;
   border-radius: 50%;
   margin: 1em 0.5em 0.5em 0.5em;
   background-size: cover;
