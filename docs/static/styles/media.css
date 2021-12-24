@@ -1,0 +1,47 @@
+@media (min-width: 1000px) {
+  .header-icons {
+    display: none;
+  }
+
+  .search-header {
+    display: flex;
+    max-width: 1024px;
+  }
+
+  #feed-container {
+    margin: 0 0 3% 0;
+  }
+
+  #menu-icons {
+    display: none;
+  }
+
+  #main-page {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-icons {
+    display: flex;
+  }
+
+  .search-header {
+    display: none;
+  }
+  #menu-icons {
+    display: flex;
+  }
+
+  #feed-container {
+    margin: 0;
+  }
+
+  #main-page {
+    margin-top: 50px;
+  }
+
+  #sub-page {
+    display: none;
+  }
+}
