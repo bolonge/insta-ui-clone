@@ -15,7 +15,8 @@
 }
 
 #sub-page {
-  margin-top: 60px;
+  margin-top: calc(2% + 60px);
   width: 40%;
   height: 300px;
+  margin-left: 3%;
 }
