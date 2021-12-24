@@ -1,9 +1,9 @@
 @media (min-width: 1000px) {
-  .header-icons {
+  .header-mobile {
     display: none;
   }
 
-  .search-header {
+  .header-desktop {
     display: flex;
     max-width: 1024px;
   }
@@ -27,11 +27,11 @@
 }
 
 @media (max-width: 1000px) {
-  .header-icons {
+  .header-mobile {
     display: flex;
   }
 
-  .search-header {
+  .header-desktop {
     display: none;
   }
 

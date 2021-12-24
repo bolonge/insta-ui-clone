@@ -29,3 +29,9 @@
 .gray-text {
   color: rgba(var(--f52, 142, 142, 142), 1);
 }
+
+.avatar-image {
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}

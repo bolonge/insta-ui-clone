@@ -19,11 +19,8 @@
 
 #feed .avatar-wrapper .avatar {
   background-image: url("http://cdn.newstheone.com/news/photo/202102/67599_68418_30.jpg");
-  background-size: cover;
-  background-position: center;
   width: 2em;
   height: 2em;
-  border-radius: 50%;
   margin-right: 1vw;
 }
 
@@ -61,9 +58,6 @@
 .like-count .small-avatar {
   margin: 0 0.5em;
   background-image: url("http://cdn.newstheone.com/news/photo/202102/67599_68418_30.jpg");
-  background-size: cover;
-  background-position: center;
   width: 1.6em;
   height: 1.6em;
-  border-radius: 50%;
 }
