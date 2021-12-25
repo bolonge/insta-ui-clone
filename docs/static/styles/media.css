@@ -13,6 +13,10 @@
     border: 1px solid #d5d5d5;
   }
 
+  #storys-wrapper .friend-story {
+    justify-content: flex-start;
+  }
+
   #feed-container {
     margin: 0 0 3% 0;
   }
@@ -37,6 +41,10 @@
 
   #storys-wrapper {
     margin: 0;
+  }
+
+  #storys-wrapper .friend-story {
+    justify-content: space-between;
   }
 
   #feed-container {
