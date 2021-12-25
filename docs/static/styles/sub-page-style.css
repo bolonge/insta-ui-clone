@@ -3,11 +3,46 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 14px;
 }
 
 #sub-page #content-wrapper {
   width: 100%;
+  display: grid;
+}
+
+#content-wrapper #content {
   display: flex;
-  justify-content: space-between;
+  height: 60px;
+}
+
+#content-wrapper #content .avatar-wrapper {
+  display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+#content-wrapper #content .avatar-wrapper .avatar {
+  width: 1.8em;
+  height: 1.8em;
+  display: flex;
+  align-self: center;
+}
+
+#content-wrapper #content .text-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 14px;
+  margin-left: 2%;
+}
+
+#content .follow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
 }
