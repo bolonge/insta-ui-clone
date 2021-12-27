@@ -1,8 +1,8 @@
-#feed-container {
+.feed-container {
   width: 100%;
 }
 
-#feed .title {
+.feed .title {
   height: 3em;
   background-color: #fefefe;
   display: flex;
@@ -11,27 +11,27 @@
   padding: 10px;
 }
 
-#feed .title .avatar-wrapper {
+.feed .title .avatar-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#feed .avatar-wrapper .avatar {
+.feed .avatar-wrapper .avatar {
   background-image: url("http://cdn.newstheone.com/news/photo/202102/67599_68418_30.jpg");
   width: 2em;
   height: 2em;
   margin-right: 1vw;
 }
 
-#feed .photo {
+.feed .photo {
   height: 60vh;
   width: 100%;
   background-size: cover;
   background-position: center;
 }
 
-#icons {
+.icons {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -39,17 +39,17 @@
   margin: 1em 0;
 }
 
-#icons > div > .icon {
+.icons > div > .icon {
   margin: 5px;
 }
 
-#comments {
+.comments {
   width: 100%;
   margin: 0 10px;
   margin-bottom: 3em;
 }
 
-#comments .like-count {
+.comments .like-count {
   display: flex;
   justify-content: flex-start;
   align-items: center;

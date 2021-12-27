@@ -6,30 +6,30 @@
   font-size: 14px;
 }
 
-#sub-page #content-wrapper {
+#sub-page .content-wrapper {
   width: 100%;
   display: grid;
 }
 
-#content-wrapper #content {
+#content-wrapper .content {
   display: flex;
   height: 60px;
 }
 
-#content-wrapper #content .avatar-wrapper {
+#content-wrapper .content .avatar-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#content-wrapper #content .avatar-wrapper .avatar {
+#content-wrapper .content .avatar-wrapper .avatar {
   width: 1.8em;
   height: 1.8em;
   display: flex;
   align-self: center;
 }
 
-#content-wrapper #content .text-wrapper {
+#content-wrapper .content .text-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@
   margin-left: 2%;
 }
 
-#content .follow {
+.content .follow {
   width: 100%;
   display: flex;
   align-items: center;
