@@ -25,6 +25,10 @@ body {
   scroll-behavior: smooth;
 }
 
+#container::-webkit-scrollbar {
+  display: none;
+}
+
 #storys-wrapper {
   max-width: 100%;
   width: 100%;
@@ -38,11 +42,23 @@ body {
   box-sizing: border-box;
 }
 
+#storys-wrapper .my-story {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #storys-wrapper .friend-story {
   width: 100%;
   display: flex;
   align-items: center;
   overflow-x: scroll;
+}
+
+#storys-wrapper .friend-story::-webkit-scrollbar {
+  display: none;
 }
 
 #storys-wrapper .story {
